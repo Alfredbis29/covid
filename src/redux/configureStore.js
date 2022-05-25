@@ -1,13 +1,13 @@
-import {
-  applyMiddleware,
-  combineReducers,
-  legacy_createStore as createStore,
-} from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import { loadingBarReducer } from 'react-redux-loading-bar';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger';
-import covidData from './covid/covid';
+import countriesReducer from './countries/countries';
 
-const rootReducer = combineReducers({ covidData });
-const store = createStore(rootReducer, applyMiddleware(thunk, logger));
+const reducer = combineReducers({
+  countries: countriesReducer,
+  loadingBar: loadingBarReducer,
+});
+
+const store = createStore(reducer, applyMiddleware(thunk));
 
 export default store;
