@@ -104,7 +104,7 @@ const Detail = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-3">
                 <div className="countries">
                   <h4 className="text-white text-end">New Deaths</h4>
                   <p className="text-white text-end">
