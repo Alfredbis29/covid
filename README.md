@@ -1,4 +1,4 @@
-# Covid-tracker-App
+# Covid19-App
 
 > 
 [Live Demo available here](https://jocular-praline-d06b4e.netlify.app/)
