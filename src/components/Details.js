@@ -21,7 +21,7 @@ const Detail = () => {
   return (
     <>
       {Object.entries(_).length === 0 && (
-        <h4 className="m-4 text-white text1">Please Wait !</h4>
+        <h4 className="m-4 text-white text1">Patient a bit!</h4>
       )}
       {Object.entries(_).length > 0 && (
         <main>
@@ -36,11 +36,11 @@ const Detail = () => {
                   COVID-19 Statistics
                 </span>
                 <br />
-                Around The World
+                In all the world
               </p>
             </div>
             <div className="col bg-color m-0 p-3 ">
-              <p className="text-white text2">
+              <p className="text-white text3">
                 <span className="text1 text-uppercase">
                   {params.Country}
                   :
@@ -55,7 +55,7 @@ const Detail = () => {
               </p>
             </div>
           </div>
-          <p className="bg-color1 text-white m-0 p-0 text2">STATISTICS</p>
+          <p className="bg-color1 text-white m-0 p-0 text3u">STATISTICS</p>
 
           <motion.section
             className="bg-color"
@@ -74,7 +74,7 @@ const Detail = () => {
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end text3">New Confirmed</h4>
+                  <h4 className="text-white text-end text3">New Confirmed cases</h4>
                   <p className="text-white text-end text2">
                     {countryData[0][1].today_new_confirmed}
                   </p>

@@ -25,7 +25,7 @@ const Home = () => {
           <p className="text-white text-center text2">
             <span className="text1 text-center">COVID-19 Statistics</span>
             <br />
-            Around The World
+            In all the world
           </p>
         </div>
         <div className="col bg-color m-0 p-3 ">
@@ -46,7 +46,7 @@ const Home = () => {
         <input
           type="text"
           placeholder="Type a country"
-          className="mx-0 mt-2 mb-0 ps-3 py-1 rounded-pill text2"
+          className="mx-0 mt-2 mb-0 ps-6 py-1 rounded-pill text2"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

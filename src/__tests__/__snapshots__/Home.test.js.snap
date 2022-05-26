@@ -20,7 +20,7 @@ Object {
               COVID-19 Statistics
             </span>
             <br />
-            Around The World
+            In all the world
           </p>
         </div>
         <div
@@ -57,7 +57,7 @@ Object {
           SEARCH BY COUNTRY NAME
         </p>
         <input
-          class="mx-0 mt-2 mb-0 ps-3 py-1 rounded-pill text2"
+          class="mx-0 mt-2 mb-0 ps-6 py-1 rounded-pill text2"
           placeholder="Type a country"
           type="text"
           value=""
@@ -84,7 +84,7 @@ Object {
             COVID-19 Statistics
           </span>
           <br />
-          Around The World
+          In all the world
         </p>
       </div>
       <div
@@ -121,7 +121,7 @@ Object {
         SEARCH BY COUNTRY NAME
       </p>
       <input
-        class="mx-0 mt-2 mb-0 ps-3 py-1 rounded-pill text2"
+        class="mx-0 mt-2 mb-0 ps-6 py-1 rounded-pill text2"
         placeholder="Type a country"
         type="text"
         value=""

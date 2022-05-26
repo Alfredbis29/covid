@@ -8,7 +8,7 @@ Object {
       <h4
         class="m-4 text-white text1"
       >
-        Please Wait !
+        Patient a bit!
       </h4>
     </div>
   </body>,
@@ -16,7 +16,7 @@ Object {
     <h4
       class="m-4 text-white text1"
     >
-      Please Wait !
+      Patient a bit!
     </h4>
   </div>,
   "debug": [Function],
