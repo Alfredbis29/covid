@@ -17,9 +17,6 @@ const Navigation = () => (
         }}
       />
       <div>
-        <p ml-0 fa-venus> Covid-19 App</p>
-      </div>
-      <div>
         <MicIcon
           style={{
             color: 'white',

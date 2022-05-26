@@ -20,6 +20,7 @@ Object {
               height="50"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1193px-SARS-CoV-2_without_background.png?20210922032455"
               style="border-radius: 999px;"
+              text="Covid track"
               width="50"
             />
             <div>
@@ -83,6 +84,7 @@ Object {
             height="50"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1193px-SARS-CoV-2_without_background.png?20210922032455"
             style="border-radius: 999px;"
+            text="Covid track"
             width="50"
           />
           <div>

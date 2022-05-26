@@ -17,6 +17,7 @@ exports[`Render components render NavBar 1`] = `
           "borderRadius": 999,
         }
       }
+      text="Covid track"
       width="50"
     />
     <div>
@@ -77,6 +78,7 @@ exports[`Render components render NavBar 2`] = `
             "borderRadius": 999,
           }
         }
+        text="Covid track"
         width="50"
       />
       <div>

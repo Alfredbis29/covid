@@ -51,6 +51,7 @@ git clone  <available once done all the project>
 - run `npm i` to install all dependencies
 - run `npm run build` or `npm run serve` to bundle the project with webpack, and
 - run `npm start` to launch the application in the browser
+- run `npm run test` to run all the test.
 
 ## Author
 
