@@ -29,6 +29,9 @@
 - CSS
 - Sass
 - NPM (Software Packages System)
+### Video Live
+
+[VideoLive](https://www.loom.com/share/ba8561c1659143ae90bbe92a7d4c6a8b)
 
 ### Install
 
