@@ -8,6 +8,7 @@ const Navigation = () => (
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1193px-SARS-CoV-2_without_background.png?20210922032455"
         alt=""
+        text="Covid track"
         width="50"
         height="50"
         className="d-inline-block align-text-top"
@@ -15,6 +16,9 @@ const Navigation = () => (
           borderRadius: 999,
         }}
       />
+      <div>
+        <p ml-0 fa-venus> Covid-19 App</p>
+      </div>
       <div>
         <MicIcon
           style={{

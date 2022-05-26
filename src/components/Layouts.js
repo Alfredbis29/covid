@@ -11,7 +11,7 @@ const Layouts = ({ title, count }) => (
       backgroundColor: '#c7044f',
       margin: 10,
       padding: 10,
-      borderRadius: 7,
+      borderRadius: 10,
     }}
   >
     <div

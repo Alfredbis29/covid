@@ -22,7 +22,7 @@ const DateSelector = () => {
     <div
       style={{
         backgroundColor: '#e3e6e4',
-        padding: 25,
+        padding: 30,
         display: 'flex',
         justifyContent: 'space-evenly',
         alignItems: 'center',
