@@ -62,6 +62,10 @@ git clone  <available once done all the project>
 - Twitter: [@AlfredBisimwa](https://twitter.com/AlfredBisimwa1)
 - LinkedIn: [AlfredBis](https://www.linkedin.com/in/kalumuna-bisimwa-0501a81a8/)
 
+### Open Issue
+
+[OpenIssue](https://github.com/Alfredbis29/covid/issues)
+
 ## 🤝 Contributing
 
 ## Acknowledgments
