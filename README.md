@@ -1,7 +1,7 @@
 # BookStore--CMS
 
 > 
-[Live Demo available once deploy]()
+[Live Demo available here](https://jocular-praline-d06b4e.netlify.app/)
 
 ## Built With
 
