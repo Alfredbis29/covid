@@ -1,20 +1,17 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoadingBar from 'react-redux-loading-bar';
-import Home from './components/home/Home';
-import Details from './components/home/Details';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const App = () => (
-  <Router>
-    <LoadingBar className="App-loading-bar" />
-    <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/country/:name">
-        <Details />
-      </Route>
-    </Switch>
-  </Router>
-);
+import HomePage from './components/HomePage';
+import CovidData from './components/CovidData';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/data/:name" element={<CovidData />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 export default App;

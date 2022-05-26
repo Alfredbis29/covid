@@ -1,6 +1,28 @@
-:root {
-  --primary: #fff;
-  --pink: #f03f83;
-  --dark-pink: #ec4c8a;
-  --light-pink: #fc5193;
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout {
+  width: 49%;
+  background-color: #c7044f;
+  margin-bottom: 5px;
+  height: 100px;
+}
+
+.name {
+  color: white;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #fff;
 }
