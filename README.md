@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Covid19-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 
+[Live Demo available here](https://jocular-praline-d06b4e.netlify.app/)
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- HTML
+- CSS
+- JavaSript/ES6
+- React&redux
+- Linters
+- NPM
+- Webpack
+- Babel
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- JavaScript (ES6)
+- React
+- Redux
+- Git
+- GitHub
+- VSCode
+- Linters
+- Fetch API
+- Webpack
+- Babel
+- CSS
+- Sass
+- NPM (Software Packages System)
+### Video Live
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[VideoLive](https://www.loom.com/share/ba8561c1659143ae90bbe92a7d4c6a8b)
 
-### `npm test`
+### Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A code editor (preferably VSCode)
+- A browser
+- Node.js (to run javascript files locally)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open git bash on local computer
+- clone the repo with:
+  .
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone  <available once done all the project>
+```
 
-### `npm run eject`
+- run `npm i` to install all dependencies
+- run `npm run build` or `npm run serve` to bundle the project with webpack, and
+- run `npm start` to launch the application in the browser
+- run `npm run test` to run all the test.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@alfredbis29](https://github.com/Alfredbis29)
+- Twitter: [@AlfredBisimwa](https://twitter.com/AlfredBisimwa1)
+- LinkedIn: [AlfredBis](https://www.linkedin.com/in/kalumuna-bisimwa-0501a81a8/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Open Issue
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[OpenIssue](https://github.com/Alfredbis29/covid/issues)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/Alfredbis29/blob/setup/MIT.md) licensed.
