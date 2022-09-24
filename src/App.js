@@ -1,20 +1,20 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoadingBar from 'react-redux-loading-bar';
-import Home from './components/home/Home';
-import Details from './components/home/Details';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Layout from './Layout';
+import Home from './components/Home';
+import Details from './components/Details';
 
-const App = () => (
-  <Router>
-    <LoadingBar className="App-loading-bar" />
-    <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/country/:name">
-        <Details />
-      </Route>
-    </Switch>
-  </Router>
-);
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/:Country" index element={<Details />} />
+        </Route>
+      </Routes>
+    </HashRouter>
+  );
+}
 
 export default App;
